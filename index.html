@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css" media="screen and (max-width: 599px)">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1200px)"/>
     <title>Farmacia Mejores Amigos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,17 +13,71 @@
 </head>
 <body>
     <nav class="navlar">
-        <picture class="logo-header">
-            <img class="logo" src="./img/logo.png" alt="logotipo de la empresa">
-        </picture>
+        <div class="container-images-navlar">
+            <picture class="container-icon-menu">
+                <img class="icon-menu-mobile" src="https://cdn-icons-png.flaticon.com/512/4238/4238680.png" alt="icono menu mobile">
+            </picture>
+            <picture class="logo-header">
+                <img class="logo" src="./img/logo.png" alt="logotipo de la empresa">
+            </picture>
+            <picture class="container-car-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/1374/1374128.png" alt="carrito de productos">
+            </picture>
+        </div>
         <div class="btn-navlar-container">
             <button class="btn-head"><span>Inicio</span></button>
             <button class="btn-head"><span>Acerca de nosotros</span></button>
             <button class="btn-head"><span>Contactanos</span></button>
             <button class="btn-head"><span>Productos</span></button>
         </div>
+
+        <section class="container-menu-mobile inactive">
+            <div class="profile-menu-mobile">
+                <picture class="image-profile-menu-mobile">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="perfil de la cuenta">
+                </picture>
+                <p class="account-direction">account@example.com</p>
+            </div>
+    
+            <ul class="container-opctions">
+                <li class="options">
+                    <a class="options-link" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2550/2550430.png" alt="icon home">
+                        </picture>
+                        Inicio
+                    </a>
+                </li>
+                <li class="options">
+                    <a class="options-link" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/476/476761.png" alt="icon sobre la empresa">
+                        </picture>
+                        Acerca de nosotros
+                    </a>
+                </li>
+                <li class="options">
+                    <a class="options-link" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2544/2544143.png" alt="contacatanos icon">
+                        </picture>
+                        Contactanos
+                    </a>
+                </li>
+                <li class="options">
+                    <a class="options-link" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3523/3523887.png" alt="icon de productos">
+                        </picture>
+                        Productos
+                    </a>
+                </li>
+            </ul>
+            
+        </section>
     </nav>
-    <main class="container">
+    <main class="container ">
+        
         <section class="inicio">
             <div class="title-container">
                 <p class="title-principal">Farmacia</p>
@@ -57,7 +112,7 @@
                 <picture class="image-animada">
                     <img src="./img/animados.png" alt="">
                 </picture>
-                <p class="services">Nuestros Servicios y productos</p>
+                <p class="services">Nuestros productos y servicios</p>
             </section>
 
             <section class="container-services">
@@ -102,5 +157,8 @@
             </div>
         </footer>
     </main>
+
+    <script src="./script.js"></script>
 </body>
+
 </html>
