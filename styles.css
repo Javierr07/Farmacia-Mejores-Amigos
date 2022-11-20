@@ -62,7 +62,7 @@ body {
     position: relative;
 }
 
-.container-icon-menu img:active {
+.container-icon-menu img:hover {
     filter: invert(63%) sepia(28%) saturate(5862%) hue-rotate(351deg) brightness(101%) contrast(101%);
     transition: 0.2s ease all;
 }
@@ -94,7 +94,7 @@ body {
     position: relative;
 }
 
-.container-car-icon img:active {
+.container-car-icon img:hover {
     filter: invert(63%) sepia(28%) saturate(5862%) hue-rotate(351deg) brightness(101%) contrast(101%);
     transition: 0.2s ease all;
 }
@@ -351,8 +351,8 @@ footer {
     position: relative;
 }
 
-.image-social:active {
-    scale: 1.4;
+.image-social:hover {
+    scale: 1.3;
     filter: invert(60%) sepia(49%) saturate(3440%) hue-rotate(142deg) brightness(88%) contrast(101%);
     transition: 0.2s all ease-in-out;
     cursor: pointer;
@@ -447,7 +447,7 @@ footer {
     color: #FF9000;
     
 }
-.options-link:active::before{
+.options-link:hover::before{
     opacity: 1;
 }
 
