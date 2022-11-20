@@ -163,6 +163,11 @@ body {
     z-index: 3;
 
 }
+@media (min-width:1500px) {
+    .image-animation{
+        height: 550px;
+    }
+}
 
 .image-animation ul {
     display: flex;
@@ -376,5 +381,8 @@ footer {
 }
 
 .container-menu-mobile{
+    display: none;
+}
+.icon-menu-mobile{
     display: none;
 }
