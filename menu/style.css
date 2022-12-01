@@ -35,7 +35,7 @@ body {
     width: 100%;
     height: 60px;
     position: sticky;
-
+    border-bottom: 1px solid var(--principal);
 }
 
 .container-images-navlar {
@@ -52,13 +52,20 @@ body {
     width: 40px;
     height: auto;
     position: relative;
-
-
+}
+@media(min-width: 600px){
+    .container-icon-menu{
+        width: 50px;
+    }
+    .navlar{
+        height: 80px;
+    }
 }
 
 .container-icon-menu img {
     width: 100%;
     position: relative;
+    filter: invert(63%) sepia(28%) saturate(5862%) hue-rotate(351deg) brightness(101%) contrast(101%);
 }
 
 

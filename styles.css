@@ -55,12 +55,12 @@ body {
     height: auto;
     position: relative;
 
-
 }
 
 .container-icon-menu img {
     width: 100%;
     position: relative;
+    filter: invert(55%) sepia(78%) saturate(1623%) hue-rotate(359deg) brightness(101%) contrast(105%);
 }
 
 
@@ -80,13 +80,14 @@ body {
     width: 40px;
     height: auto;
     position: relative;
-
+    
 
 }
 
 .container-car-icon img {
     width: 100%;
     position: relative;
+    filter: invert(55%) sepia(78%) saturate(1623%) hue-rotate(359deg) brightness(101%) contrast(105%);
 }
 
 

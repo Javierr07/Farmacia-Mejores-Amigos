@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+
+}
+
+
+:root {
+    --principal: #FF9000;
+    --fondo-imagen: #ff8411;
+    --secundario: #FDFF9F;
+    --title-principal: 5rem;
+    --title-principal-mobile: 4rem;
+    --slogan: 3.5rem;
+    --slogan-mobile: 3.2rem;
+    --title: 2.5rem;
+    --subtitle: 2rem;
+    --text: 1.7rem;
+    --negrita: 700;
+    --seminegrita: 500;
+}
+
+
+.navlar {
+    background: #FDFF9F;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    border-bottom: 1px solid var(--principal);
+
+}
+
+
+.container-images-navlar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-icon-menu {
+    width: 40px;
+    height: auto;
+    position: relative;
+
+
+}
+
+.container-icon-menu img {
+    width: 100%;
+    position: relative;
+    filter: invert(63%) sepia(28%) saturate(5862%) hue-rotate(351deg) brightness(101%) contrast(101%);
+}
+
+
+.logo-header {
+    width: 125px;
+    height: auto;
+    position: relative;
+
+}
+
+.logo {
+    width: 100%;
+    position: relative;
+}
+
+.container-car-icon {
+    width: 40px;
+    height: auto;
+    position: relative;
+
+
+}
+
+.container-car-icon img {
+    width: 100%;
+    position: relative;
+    filter: invert(63%) sepia(28%) saturate(5862%) hue-rotate(351deg) brightness(101%) contrast(101%);
+}
+
+
+
+.btn-navlar-container {
+    display: none;
+
+}

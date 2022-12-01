@@ -68,8 +68,8 @@ body {
     color: #FF9000;
     border-top: none;
     border-bottom: none;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
+    border-left: 3px solid var(--principal);
+    border-right: 3px solid var(--principal);
     background: none;
 }
 
@@ -390,7 +390,9 @@ footer {
     height: 150px;
     position: absolute;
     top: 50px;
-    
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid lightcoral;
 }
 
 .image-profile-container img{
