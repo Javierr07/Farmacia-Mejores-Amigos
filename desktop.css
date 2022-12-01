@@ -109,7 +109,7 @@ body {
     z-index: 2;
     transition: 0.7s ease-in-out all;
     top: 50%;
-    left: 45%;
+    left: 50%;
     border-radius: 50%;
 
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .btn-head:hover::after {
-    transform: scale(100);
+    transform: scale(150);
     transition: 0.3 ease-in-out all;
 }
 
@@ -289,7 +289,7 @@ body {
 
 .item-services {
     width: 350px;
-    height: 350px;
+    height: 375px;
     border-radius: 20px;
     box-shadow: 15px 15px 20px lightgray;
     display: flex;
@@ -323,17 +323,17 @@ body {
 .item-services::after {
     content: '';
     width: 100%;
-    height: 500px;
+    height: 550px;
     background: var(--principal);
     position: relative;
-    top: -550px;
+    top: -575px;
     border-radius: 0 0 400px 400px;
 
 
 }
 
 .item-services:hover::after {
-    top: -25px;
+    top: -20px;
     transition: 0.5s ease-in-out all;
 }
 
