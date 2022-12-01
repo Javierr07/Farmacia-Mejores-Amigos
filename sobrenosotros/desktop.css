@@ -37,11 +37,11 @@ body {
 
 /*menu principal*/
 .navlar {
-    background: #FDFF9F;
+
     width: 100%;
     height: 75px;
-    position: sticky;
-    border-bottom: 2px solid var(--principal);
+    position: absolute;
+    border-bottom: 2px solid white;
 }
 
 .container-car-icon{
@@ -55,6 +55,7 @@ body {
     width: 200px;
     height: auto;
     position: absolute;
+    z-index: 1;
     top: 20px;
     left: 20px;
 
@@ -73,7 +74,7 @@ body {
 }
 
 .btn-navlar-container {
-    width: 75%;
+    width: 100%;
     height: 75px;
     display: flex;
     justify-content: space-evenly;
@@ -85,19 +86,20 @@ body {
 .btn-head {
     width: 250px;
     height: 50px;
-    background: var(--principal);
-    border-radius: 5px;
-    color: white;
-    font-size: var(--text);
+    border: none;
     position: relative;
     z-index: 1;
+    background: none;
+    color: white;
     overflow: hidden;
     cursor: pointer;
+    font-size: 2.5rem;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
 }
 
 .btn-head::after {
@@ -127,274 +129,7 @@ body {
 .btn-head:hover {
     background: black;
     transition: 0.3s ease-in-out all;
-    
-}
-
-/*nombre de la empresa y slogan*/
-
-.title-container {
-    position: absolute;
-    top: 150px;
-    right: 100px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-size: var(--title-principal);
-    font-family: 'Josefin Sans', sans-serif;
-    z-index: 3;
-    color: gray;
-}
-
-.slogan-container{
-    position: absolute;
-    top: 350px;
-    right: 100px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-size: var(--slogan);
-    font-family: 'Josefin Sans', sans-serif;
-    z-index: 3;
-    color: gray;
-}
-
-
-
-/*contenedor de imagenes en movimiento*/
-
-.image-animation {
-    position: relative;
-    width: 60vw;
-    height: 500px;
-    overflow: hidden;
-    top: 100px;
-    border-radius: 30px;
-    border: 5px solid var(--principal);
-    z-index: 3;
-
-}
-@media (min-width:1500px) {
-    .image-animation{
-        height: 550px;
-    }
-}
-
-.image-animation ul {
-    display: flex;
-    animation: cambio 20s infinite alternate linear;
-    width: 400%;
-}
-
-.image-animation li {
-    width: 100%;
-    list-style: none;
-}
-
-.image-animation img {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-@keyframes cambio {
-    0% {
-        margin-left: 0;
-    }
-
-    20% {
-        margin-left: 0;
-    }
-
-    25% {
-        margin-left: -100%;
-    }
-
-    45% {
-        margin-left: -100%;
-    }
-
-    50% {
-        margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    75% {
-        margin-left: -300%;
-    }
-
-    100% {
-        margin-left: -300%;
-    }
-}
-
-/*franja naranja con texto e imagen*/
-.fondo-naranja {
-    width: 100%;
-    height: 500px;
-    position: absolute;
-    z-index: 1;
-    top: 550px;
-}
-
-.fondo-naranja img {
-    width: 100%;
-    height: 100%;
-    background: var(--fondo-imagen);
-}
-
-.image-animada {
-    width: 500px;
-    height: 500px;
-    height: auto;
-    position: absolute;
-    z-index: 1;
-    right: 50px;
-}
-
-.image-animada img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 650px;
-}
-
-.services {
-    z-index: 1;
-    font-family: 'Josefin Sans', sans-serif;
-    position: relative;
-    font-size: var(--title-principal);
-    text-align: center;
-    width: 700px;
-    top: 350px;
-    left: 30px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-/*contenedor de servicios*/
-
-.container-services {
-    z-index: 1;
-    position: relative;
-    top: 600px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.item-services {
-    width: 350px;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 15px 15px 20px lightgray;
-    display: flex;
-    justify-content: center;
-    background: var(--secundario);
-    overflow: hidden;
-}
-
-.item-services .image-services-container {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 30px;
-
-}
-
-.item-services .image-services-container img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.item-services p {
-    position: absolute;
-    bottom: 50px;
-    font-size: 3rem;
-    z-index: 1;
-}
-
-.item-services::after {
-    content: '';
-    width: 100%;
-    height: 500px;
-    background: var(--principal);
-    position: relative;
-    top: -550px;
-    border-radius: 0 0 400px 400px;
-
-
-}
-
-.item-services:hover::after {
-    top: -25px;
-    transition: 0.5s ease-in-out all;
-}
-
-.item-services:hover {
-    color: white;
-    transition: 0.5s ease-in-out all;
-    cursor: pointer;
-}
-
-/*footer*/
-footer {
-    width: 100%;
-    height: 200px;
-    ;
-    position: relative;
-    z-index: 1;
-    top: 650px;
-    background: #dfdedf;
-
-}
-
-.social-page-container {
-    display: flex;
-    justify-content: space-evenly;
-    top: 20px;
-    position: relative;
-}
-
-.image-social {
-    width: 50px;
-    height: 50px;
-    position: relative;
-}
-
-.image-social:hover {
-    scale: 1.4;
-    filter: invert(60%) sepia(49%) saturate(3440%) hue-rotate(142deg) brightness(88%) contrast(101%);
-    transition: 0.2s all ease-in-out;
-    cursor: pointer;
-}
-
-.copy {
-    width: 100%;
-    height: 80px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    top: 30px;
-}
-
-.copy p {
-    position: relative;
-    font-size: 2rem;
-    top: 30px;
-}
-
-.container-menu-mobile{
-    display: none;
-}
-.icon-menu-mobile{
-    display: none;
+    scale: 1.1;
 }
 
 
@@ -510,7 +245,7 @@ footer {
 
 .target-integrant{
     width: 100%;
-    height: 300px;
+    height: 325px;
     position: relative;
     margin: 0 auto;
     
@@ -610,10 +345,6 @@ footer {
 .icon-menu-mobile{
     display: none;
 }
-
-
-@media(min-width: 1600px){
-    .services{
-        left: 150px;
-    }
+.inicio-principal{
+    display: none;
 }

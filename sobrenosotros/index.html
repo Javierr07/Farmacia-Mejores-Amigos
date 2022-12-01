@@ -4,36 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css" media="screen and (max-width: 599px)">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1200px)"/>
-    <title>Farmacia Mejores Amigos</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;0,700;1,500&family=Bebas+Neue&family=Big+Shoulders+Display:wght@700&family=Josefin+Sans:ital,wght@0,600;1,400&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Quicksand:wght@300;500;700&family=Roboto+Slab:wght@500&family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>sobre nosotros</title>
 </head>
 <body>
+
     <nav class="navlar">
         <div class="container-images-navlar">
-            <a href="./menu/index.html" class="container-icon-menu">
+            <a href="../menu/index.html" class="container-icon-menu">
                 <img class="icon-menu-mobile" src="https://cdn-icons-png.flaticon.com/512/4225/4225935.png" alt="icono menu mobile">
             </a>
-            <picture class="logo-header">
-                <img class="logo" src="./img/logo.png" alt="logotipo de la empresa">
-            </picture>
-            <a href="./productos/index.html" class="container-car-icon">
+                <button href="../index.html" class="inicio-principal"><span>FARMACIA MEJORES AMIGOS</span></button>
+            <a href="../productos/index.html" class="container-car-icon">
                 <img src="https://cdn-icons-png.flaticon.com/512/1374/1374128.png" alt="carrito de productos">
             </a>
         </div>
         <div class="btn-navlar-container">
-
-            <a class="btn-head btn-inicio" href="./index.html"><span>Inicio</span></a>
-            <a class="btn-head btn-acerca" href="./sobrenosotros/index.html"><span>Acerca de nosotros</span></a>
-            <a class="btn-head btn-productos" href="./productos/index.html"><span>Productos</span></a>
+            <a class="btn-head btn-inicio" href="../index.html"><span>Inicio</span></a>
+            <a class="btn-head btn-acerca" href="./index.html"><span>Acerca de nosotros</span></a>
+            <a class="btn-head btn-productos" href="../productos/index.html"><span>Productos</span></a>
         </div>
 
+        <section class="container-menu-mobile inactive">
+            <div class="profile-menu-mobile">
+                <picture class="image-profile-menu-mobile">
+                    <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="perfil de la cuenta">
+                </picture>
+                <p class="account-direction">account@example.com</p>
+            </div>
+    
+            <ul class="container-opctions">
+                <li class="options">
+                    <a class="options-link link-inicio" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2550/2550430.png" alt="icon home">
+                        </picture>
+                        Inicio
+                    </a>
+                </li>
+                <li class="options">
+                    <a class="options-link link-acerca" href="./sobrenosotros/index.html">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/476/476761.png" alt="icon sobre la empresa">
+                        </picture>
+                        Acerca de nosotros
+                    </a>
+                </li>
+                <li class="options">
+                    <a class="options-link lonk-productos" href="#">
+                        <picture class="image-icon-menu">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3523/3523887.png" alt="icon de productos">
+                        </picture>
+                        Productos
+                    </a>
+                </li>
+            </ul>
+            
+        </section>
     </nav>
-    <main class="container-nos inactive">
+    <main class="container-nos">
         <div class="container-images-text">
             <picture class="image-principal-nos-container">
                 <source media="(min-width: 1000px)" srcset="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
@@ -177,100 +208,7 @@
                 <p>© 2022 Copyright: Mejoresamigos.com</p>
             </div>
         </footer>
-
+        <script src="./script.js"></script>
     </main>
-    <main class="container ">
-        
-        <section class="inicio">
-            <div class="title-container">
-                <p class="title-principal">Farmacia</p>
-                <p class="title-principal">Mejores Amigos</p>
-            </div>
-            <div class="slogan-container">
-                <p class="slogan">"Porque ellos tambien</p>
-                <p class="slogan">merecen salud"</p>
-            </div>
-
-            <div class="image-animation">
-                <ul>
-                    <li>
-                        <img src="./img/mascotas1.jpg" alt="primera imagen de mascotas">
-                    </li>
-                    <li>
-                        <img src="./img/mascotas2.jpg" alt="segunda imagen de mascotas">
-                    </li>
-                    <li>
-                        <img src="./img/mascotas3.jpg" alt="tercera imagen de mascotas">
-                    </li>
-                    <li>
-                        <img src="./img/mascotas4.jpg" alt="cuarta imagen de mascotas">
-                    </li>
-                </ul>
-            </div>
-
-            <section>
-                <picture class="fondo-naranja">
-                    <img src="./img/fondo.png" alt="">
-                </picture>
-                <picture class="image-animada">
-                    <img src="./img/animados.png" alt="">
-                </picture>
-                <p class="services">Nuestros productos y servicios</p>
-            </section>
-
-            <section class="container-services">
-                <div class="item-services uno">
-                    <picture class="image-services-container">
-                        <img src="https://cdn-icons-png.flaticon.com/512/706/706138.png" alt="">
-                    </picture>
-                    <p>Medicamentos</p>
-                </div>
-                <div class="item-services dos">
-                    <picture class="image-services-container">
-                        <img src="https://cdn-icons-png.flaticon.com/512/5564/5564885.png" alt="">
-                    </picture>
-                    <p>Alimentos</p>
-                </div>
-                <div class="item-services tres">
-                    <picture class="image-services-container">
-                        <img src="https://cdn-icons-png.flaticon.com/512/2833/2833463.png" alt="">
-                    </picture>
-                    <p>Servicio a domicilio</p>
-                </div>
-            </section>
-
-
-        </section>
-        <footer>
-            <div class="social-page-container">
-
-                <a href="https://www.facebook.com/">
-                    <img class="image-social" src="https://cdn-icons-png.flaticon.com/512/733/733603.png" alt="direccion de facebook">
-                </a>
-                
-                    <a href="https://twitter.com/">
-                        <img class="image-social" src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="direccion de twiter">
-                    </a>>
-                
-                
-                    <a href="https://www.instagram.com/">
-                        <img class="image-social" src="https://cdn-icons-png.flaticon.com/512/1400/1400829.png" alt="icono de instagram">
-                    </a>
-                
-                
-                    <a href="https://www.tiktok.com/">
-                        <img class="image-social" src="https://cdn-icons-png.flaticon.com/512/3669/3669950.png" alt="icono tiktok">
-                    </a>
-                </div>
-                
-            </div>
-            <div class="copy">
-                <p>© 2022 Copyright: Mejoresamigos.com</p>
-            </div>
-        </footer>
-    </main>
-
-    <script src="./script.js"></script>
 </body>
-
 </html>
