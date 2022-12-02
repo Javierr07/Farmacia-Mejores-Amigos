@@ -37,11 +37,14 @@ body {
 
 /*menu principal*/
 .navlar {
-    background: #FDFF9F;
     width: 100%;
     height: 75px;
     position: absolute;
-    border-bottom: 2px solid var(--principal);
+    border-bottom: none;
+}
+
+.inicio-principal{
+    display: none;
 }
 
 .container-car-icon{

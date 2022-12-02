@@ -72,7 +72,6 @@ body {
     border-right: 3px solid white;
     background: none;
     filter: invert(54%) sepia(98%) saturate(1304%) hue-rotate(359deg) brightness(100%) contrast(102%);
-
 }
 
 
@@ -394,7 +393,7 @@ footer {
     top: 50px;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid lightcoral;
+    border: 5px solid #52b788;
 }
 
 .image-profile-container img{
