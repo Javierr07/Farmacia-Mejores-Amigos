@@ -322,7 +322,7 @@ body {
 /*footer*/
 footer {
     width: 100%;
-    height: 200px;
+    height: 225px;
     position: relative;
     z-index: 1;
     top: 100px;
@@ -352,7 +352,16 @@ footer {
     cursor: pointer;
 }
 
+.contacts-container{
+    font-size: 2rem;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
 
+.phone{
+    padding-bottom: 15px;
+}
 
 
 
@@ -360,7 +369,6 @@ footer {
     width: 100%;
     height: 80px;
     position: relative;
-
     display: flex;
     justify-content: center;
     top: 30px;
@@ -369,7 +377,7 @@ footer {
 .copy p {
     position: relative;
     font-size: 2rem;
-    top: 30px;
+    top: 45px;
 }
 
 /*configuracion menu mobile*/

@@ -96,7 +96,7 @@ body {
 /*footer*/
 footer {
     width: 100%;
-    height: 200px;
+    height: 225px;
     position: relative;
     z-index: 1;
     top: 100px;
@@ -124,6 +124,17 @@ footer {
     animation-duration: 2s;
     transition: ease;
     cursor: pointer;
+}
+
+.contacts-container{
+    font-size: 2rem;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.phone{
+    padding-bottom: 15px;
 }
 
 .copy {

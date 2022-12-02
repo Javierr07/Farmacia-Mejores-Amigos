@@ -325,7 +325,7 @@ body {
 /*footer*/
 footer {
     width: 100%;
-    height: 200px;
+    height: 225px;
     position: relative;
     z-index: 1;
     top: 100px;
@@ -346,10 +346,6 @@ footer {
     position: relative;
 }
 
-
-
-
-
 .image-social:hover {
     scale: 1.3;
     filter: invert(25%) sepia(92%) saturate(1713%) hue-rotate(179deg) brightness(99%) contrast(101%);
@@ -358,9 +354,16 @@ footer {
     cursor: pointer;
 }
 
+.contacts-container{
+    font-size: 2rem;
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
 
-
-
+.phone{
+    padding-bottom: 15px;
+}
 
 .copy {
     width: 100%;
@@ -511,6 +514,12 @@ footer {
         border-radius: 150px 0 0 0;
         min-height: 300px;
     }
+
+    .contacts-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
 }
 
 
@@ -548,6 +557,10 @@ footer {
         min-height: 400px;
     }
 
+    .contacts-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 
