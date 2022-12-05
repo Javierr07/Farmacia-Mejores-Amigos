@@ -365,6 +365,10 @@ footer {
     padding-bottom: 15px;
 }
 
+.direction{
+    padding-bottom: 15px;
+}
+
 .copy {
     width: 100%;
     height: 80px;
@@ -515,11 +519,7 @@ footer {
         min-height: 300px;
     }
 
-    .contacts-container{
-        display: flex;
-        justify-content: space-between;
-        padding: 0 30px;
-    }
+    
 }
 
 

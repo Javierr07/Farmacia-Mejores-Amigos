@@ -327,11 +327,6 @@ footer {
 
 @media(min-width:700px) {
 
-    .contacts-container{
-        display: flex;
-        justify-content: space-between;
-        padding: 0 30px;
-    }
 
     .name-categories{
         top: 500px;
