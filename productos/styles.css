@@ -6,7 +6,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 body {
@@ -128,11 +128,122 @@ body {
     -webkit-text-stroke: 2px black;
     border-bottom: 2px solid black;
     border-top: 2px solid black;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 
+/*estilos para los productos*/
+.name-categories{
+    font-size: 5rem;
+    position: relative;
+    top: 600px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
 
+.container-products{
+    width: 95%;
+    height: auto;
+    top: 650px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
 
+.container-products .target-product{
+    position: relative;
+    margin:  0 auto;
+}
+
+.target-product{
+    width: 90%;
+    height: 325px;
+    box-shadow: 10px 10px 10px lightgray;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.container-image-product{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+}
+.container-image-product img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.name-product{
+    position: absolute;
+    text-align: center;
+    bottom: 110px;
+    font-size: 2rem;
+}
+
+.price-product{
+    position: absolute;
+    text-align: center;
+    bottom: 75px;
+    font-size: 2rem;
+}
+
+.btn-compra{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+    background: #8ac926;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    top: 260px;
+    color: white;
+
+}
+
+.btn-compra:hover{
+    background: #4361ee;
+    transition: 1s all ease;
+    transform: scale(1.1);
+}
+
+.container-car-icon-button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    
+}
+
+.container-car-icon-button img{
+    width: 100%;
+    height: 100%;
+    filter: invert(99%) sepia(5%) saturate(87%) hue-rotate(186deg) brightness(119%) contrast(100%);
+}
+
+.text-button{
+    position: absolute;
+    right: 20px;
+    font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.belleza{
+    top: 800px;
+}
+
+.belleza-container{
+    top: 900px;
+}
 
 
 
@@ -148,10 +259,10 @@ body {
 /*footer*/
 footer {
     width: 100%;
-    height: 225px;
+    height: 300px;
     position: relative;
     z-index: 1;
-    top: 800px;
+    top: 1000px;
     background: #dfdedf;
 
 }
@@ -230,5 +341,24 @@ footer {
         border-top: 3px solid black;
         font-size: 6rem;
         top: 450px;
+    }
+    .name-categories{
+        top: 750px;
+    }
+
+    .container-products{
+        top: 800px;
+    }
+
+    .belleza{
+        top: 900px;
+    }
+    
+    .belleza-container{
+        top: 1000px;
+    }
+    
+    footer{
+        top: 1100px;
     }
 }

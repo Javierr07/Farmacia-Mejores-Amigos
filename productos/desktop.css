@@ -164,14 +164,15 @@ body {
 .name-categories{
     font-size: 5rem;
     position: relative;
-    top: 700px;
+    top: 800px;
     text-align: center;
+    font-weight: 600;
 }
 
 .container-products{
     width: 95%;
     height: auto;
-    top: 750px;
+    top: 850px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -194,6 +195,7 @@ body {
     border-radius: 20px;
 }
 
+
 .container-image-product{
     width: 150px;
     height: 150px;
@@ -209,15 +211,15 @@ body {
 .name-product{
     position: absolute;
     text-align: center;
-    bottom: 100px;
-    font-size: 1.6rem;
+    bottom: 110px;
+    font-size: 2rem;
 }
 
 .price-product{
     position: absolute;
     text-align: center;
     bottom: 75px;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .btn-compra{
@@ -234,6 +236,12 @@ body {
     top: 260px;
     font-size: 1.6rem;
     color: white;
+}
+
+.btn-compra:hover{
+    background: #4361ee;
+    transition: 1s all ease;
+    transform: scale(1.1);
 }
 
 .container-car-icon-button{
@@ -253,8 +261,21 @@ body {
 .text-button{
     position: absolute;
     right: 20px;
+    font-size: 1.8rem;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
+.belleza{
+    top: 950px;
+}
+
+.belleza-container{
+    top: 1000px;
+}
+
+footer{
+    top: 1100px;
+}
 
 .icon-menu-mobile{
     display: none;
